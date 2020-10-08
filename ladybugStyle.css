@@ -1,0 +1,163 @@
+.wrapper{
+    background-size:cover;
+    text-align:center;
+  }
+
+  html{
+      background-color: gray;
+  }
+  
+  .ladybug{
+    width:130px;
+    height:150px;
+    border: solid 5px black;
+    background-color:red;
+    border-radius:50%;
+    display:flex;
+    margin:auto;
+  }
+  
+  .wingLine{
+    width:0px;
+    height:150px;
+    border-left:solid 5px black;
+    left:62px;
+    position:relative;
+  }
+  .spot{
+    border:solid 5px black;
+    background-color:black;
+    position:absolute;
+    border-radius: 50%;
+  }
+  #spot1{
+      width:20px;
+      height:20px;
+      bottom:234px;
+      left:28px;
+  }
+  #spot2{
+    width:40px;
+    height:40px;
+    bottom:190px;
+    left:52px;
+}
+   #spot3{
+    width:20px;
+    height:20px;
+    bottom:160px;
+    left:96px;
+}
+#spot4{
+    width:20px;
+    height:20px;
+    bottom:160px;
+    left:28px;
+}
+#spot5{
+    width:20px;
+    height:20px;
+    bottom:234px;
+    left:96px;
+}
+.leg{
+    background-color: black;
+    position: absolute;
+}
+#rightTop{
+    width: 8px;
+    height:25px;
+    top:8px;
+    left:125px;
+    border:solid 2px black;
+    border-radius: 20px 20px 0px 0px;
+    transform:rotate(55deg);
+}
+#rightMid{
+    width: 8px;
+    height:25px;
+    top:64px;
+    left:145px;
+    border:solid 2px black;
+    border-radius: 20px 20px 0px 0px;
+    transform:rotate(90deg);
+}
+#rightBottom{
+    width: 8px;
+    height:25px;
+    top:125px;
+    left:125px;
+    border:solid 2px black;
+    border-radius: 20px 20px 0px 0px;
+    transform:rotate(130deg);
+}
+#leftTop{
+    width: 8px;
+    height:25px;
+    top:8px;
+    left:-2px;
+    border:solid 2px black;
+    border-radius: 20px 20px 0px 0px;
+    transform:rotate(-48deg);
+}
+#leftMid{
+    width: 8px;
+    height:25px;
+    top:64px;
+    left:-18px;
+    border:solid 2px black;
+    border-radius: 20px 20px 0px 0px;
+    transform:rotate(270deg);
+}
+#leftBottom{
+    width: 8px;
+    height:25px;
+    top:125px;
+    left:0px;
+    border:solid 2px black;
+    border-radius: 20px 20px 0px 0px;
+    transform:rotate(230deg);
+}
+#leftEye{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    box-shadow: 8px 4px 0px 0px yellow;
+    position: absolute;
+    transform: rotate(195deg);
+    left: 45px;
+}
+#rightEye{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    box-shadow: 8px 4px 0px 0px yellow;
+    position: absolute;
+    transform: rotate(295deg);
+    left: 85px;
+}
+  .head{
+    width:75px;
+    height:70px;
+    border: solid 5px black;
+    border-radius: 50px 50px 0px 0px;
+    background-color: black;
+    top:-65px;
+    left:17px;
+    position:relative;
+  }
+  div.eyes{
+      position: relative;
+      left:-102px;
+      top:-60px;
+  }
+  div.spots {
+      position: relative;
+      top: 136px;
+      left:-102px;
+  }
+  div.legs{
+      position:relative;
+      top: -3px;
+      left: -3px;
+  }
